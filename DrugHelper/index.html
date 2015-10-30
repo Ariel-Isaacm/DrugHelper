@@ -47,10 +47,11 @@
       <div class="container">
         <!-- Page Content goes here -->
         <form action="#">
-          <p class="range-field">
-            <label class="active" for="weigth">Selecciona el peso</label>
-            <input type="range" id="weigth" id="test5" min="0" max="100" />
-          </p>
+          <div class="input-field col s6">
+         <!-- <i class="material-icons prefix">account_circle</i> -->
+         <input id="weigth" type="number" class="validate" style="overflow:hidden;">
+         <label for="weigth" data-error="Only Numbers">Weigth (Kg)</label>
+       </div>
         <p class="center">  <a id="btn" onclick="calculate()" class="waves-effect waves-light btn">Calcular</a></p>
         </form>
       </div>
